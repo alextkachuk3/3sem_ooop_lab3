@@ -801,10 +801,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Classes\MainMenuScene.h" />
     <ClInclude Include="C:\Users\olex1\Desktop\3sem_ooop_lab3\Classes\AppDelegate.h" />
     <ClInclude Include="C:\Users\olex1\Desktop\3sem_ooop_lab3\Classes\HelloWorldScene.h" />
     <ClInclude Include="C:\Users\olex1\Desktop\3sem_ooop_lab3\proj.win32\main.h" />
     <ClInclude Include="C:\Users\olex1\Desktop\3sem_ooop_lab3\proj.win32\resource.h" />
+    <ClCompile Include="..\Classes\MainMenuScene.cpp" />
     <ClCompile Include="C:\Users\olex1\Desktop\3sem_ooop_lab3\Classes\AppDelegate.cpp" />
     <ClCompile Include="C:\Users\olex1\Desktop\3sem_ooop_lab3\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="C:\Users\olex1\Desktop\3sem_ooop_lab3\proj.win32\main.cpp" />

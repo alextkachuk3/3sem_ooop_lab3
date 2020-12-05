@@ -13,6 +13,9 @@
     <ClCompile Include="C:\Users\olex1\Desktop\3sem_ooop_lab3\cocos2d\cocos\precheader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\MainMenuScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\olex1\Desktop\3sem_ooop_lab3\Classes\AppDelegate.h">
@@ -44,6 +47,9 @@
     </ClInclude>
     <ClInclude Include="C:\Users\olex1\Desktop\3sem_ooop_lab3\Resources\res\.gitkeep">
       <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenuScene.h">
+      <Filter>Source Files\Classes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
