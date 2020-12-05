@@ -74,4 +74,9 @@
       <UniqueIdentifier>{4B549481-49CB-3C82-90F3-EDCBEB8BA5C2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="bin\3sem_ooop_lab3\Debug\Resources\Minotaur_01_Idle_000.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
 </Project>

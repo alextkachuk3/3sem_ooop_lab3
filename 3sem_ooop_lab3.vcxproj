@@ -115,7 +115,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/olex1/Desktop/3sem_ooop_lab3/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Users/olex1/Desktop/3sem_ooop_lab3/proj.win32/bin/3sem_ooop_lab3/Debug/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -279,7 +280,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/olex1/Desktop/3sem_ooop_lab3/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Users/olex1/Desktop/3sem_ooop_lab3/proj.win32/bin/3sem_ooop_lab3/Release/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -443,7 +445,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/olex1/Desktop/3sem_ooop_lab3/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Users/olex1/Desktop/3sem_ooop_lab3/proj.win32/bin/3sem_ooop_lab3/MinSizeRel/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -606,7 +609,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/olex1/Desktop/3sem_ooop_lab3/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Users/olex1/Desktop/3sem_ooop_lab3/proj.win32/bin/3sem_ooop_lab3/RelWithDebInfo/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -874,6 +878,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{DDDA07C4-933A-31A8-81AF-6BE55183F1A3}</Project>
       <Name>external</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bin\3sem_ooop_lab3\Debug\Resources\Minotaur_01_Idle_000.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
