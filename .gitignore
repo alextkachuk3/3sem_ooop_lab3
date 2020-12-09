@@ -46,12 +46,17 @@ AppPackages
 BundleArtifacts
 .vs/
 
+cocos2d/
+proj.android/
+proj.ios_mac/
+proj.linux
 # Ignore files build by ndk and eclipse
 libs/
 bin/
 gen/
 assets/
-local.properties
+local.properties/
+proj.win32/
 
 # Ignore python compiled files
 *.pyc
@@ -488,3 +493,7 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,cocos2dx
+proj.android/app/res/mipmap-mdpi/ic_launcher.png
+proj.android/app/res/mipmap-mdpi/ic_launcher.png
+proj.android/app/res/mipmap-hdpi/ic_launcher.png
+CMakeLists.txt
