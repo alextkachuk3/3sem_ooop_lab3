@@ -30,6 +30,7 @@ bool TicTacToe::init() {
     return true;
 }
 
+//Game logic after touching screen
 bool TicTacToe::onTouchBegan(Touch* touch, Event* event) {
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
@@ -72,7 +73,6 @@ bool TicTacToe::onTouchBegan(Touch* touch, Event* event) {
 }
 
 void TicTacToe::initial() {
-    //auto bg = LayerColor::create(Color4B(0, 188, 212, 255));
     auto bg = LayerColor::create(Color4B(50, 143, 96, 255));
     this->addChild(bg);
 
@@ -209,6 +209,7 @@ void TicTacToe::checkGameOver(int x, int y, int player) {
     return;
 }
 
+//Scene after end
 void TicTacToe::reset(int player, bool check) {
     auto bg = LayerColor::create(Color4B(50, 205, 50, 100));
     this->addChild(bg);
